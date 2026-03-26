@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
 
 html,
 body,
@@ -10,4 +16,16 @@ body,
 
 body {
   margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+  background: #05080a;
+  color: #eef2f5;
+}
+
+.font-display {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
 }
